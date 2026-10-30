@@ -18,7 +18,10 @@ if VIP:
     total_discount+=0.15
 
 
-if total_discount>0.25:
-    total_discount=0.25
-
+if VIP:
+    if total_discount>0.25:
+        total_discount=0.25
+else:
+    if total_discount>0.1:
+        total_discount=0.1
 print(f"total discount: {total_discount}")
