@@ -14,8 +14,8 @@ def log_calls(filename):
     return decorator
 
 @log_calls("calls")
-def sum(a,b):
-    return a+b
+def hello():
+    return "Hello world"
 
 
-sum(2,3)
+hello()

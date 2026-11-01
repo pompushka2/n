@@ -7,7 +7,7 @@ def flatten_list(lisa):
         else:
             i+=1
 
-list_a = [1, 2, 3, [4], 5, [6, [7, [], 8, [9]]]]
+list_a = [1, 2, 3, [4], 5, [7, [7, [], 8, [9]]]]
 flatten_list(list_a)
 
 print(f"formated:{list_a}")
